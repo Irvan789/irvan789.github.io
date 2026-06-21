@@ -1,0 +1,31 @@
+{
+  "name": "porto-irvan789-dev",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@iconify-json/heroicons": "^1.2.3",
+    "@iconify-json/mingcute": "^1.2.7",
+    "@iconify-json/tabler": "^1.2.35",
+    "@iconify/tailwind4": "^1.2.3",
+    "@nuxtjs/i18n": "^10.4.0",
+    "@tailwindcss/vite": "^4.3.1",
+    "@vueuse/components": "^14.3.0",
+    "@vueuse/core": "^14.3.0",
+    "nuxt": "^4.4.8",
+    "overlayscrollbars-vue": "^0.5.10",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.1",
+    "vue-sonner": "^2.0.9"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.4",
+    "prettier-plugin-tailwindcss": "^0.8.0"
+  }
+}
