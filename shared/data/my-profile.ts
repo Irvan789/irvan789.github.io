@@ -44,7 +44,7 @@ export default {
           description:
             "Financial dashboard system for record the transactions and create reports.",
           url: null,
-          image: "/assets/project/images/default.webp",
+          image: "/assets/project/images/maa.webp",
           tags: ["laravel", "vue", "postgresql"],
           isOpenSource: false,
           repositoryUrl: null
@@ -54,7 +54,7 @@ export default {
           description:
             "Company profile website for improve accessibility and organizational services.",
           url: null,
-          image: "/assets/project/images/default.webp",
+          image: "/assets/project/images/blp.webp",
           tags: ["laravel", "vue", "postgresql"],
           isOpenSource: false,
           repositoryUrl: null
