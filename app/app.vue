@@ -8,13 +8,4 @@ import "overlayscrollbars/styles/overlayscrollbars.css"
   >
     <NuxtPage />
   </NuxtLayout>
-
-  <Toaster
-    offset="9px"
-    mobile-offset="9px"
-    position="top-center"
-    :duration="3000"
-    :visibleToasts="1"
-    rich-colors
-  />
 </template>

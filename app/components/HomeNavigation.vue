@@ -6,7 +6,7 @@ const state = reactive({
   userDropdown: false
 })
 
-function scrollToSection(section: string) {
+function scrollToSection(section: string): void {
   const element = document.getElementById(section)
   element?.scrollIntoView({
     behavior: "smooth",
