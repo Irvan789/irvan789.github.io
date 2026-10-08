@@ -1,24 +1,21 @@
 export default {
   "name": "Irvan Tonny Widjaya",
   "avatar": "https://avatars.githubusercontent.com/u/33544411",
-  "about":
-    "Hi 👋. I'm Irvan Tonny Widjaya, A Junior Full-Stack Web Developer and IT Enthusiast from Palembang. I've high passion in programming and solving real-world problems through hands-on projects in web applications.",
+  "about": "Hi 👋. I'm Irvan Tonny Widjaya, A Junior Full-Stack Web Developer and IT Enthusiast from Palembang. I've high passion in programming and solving real-world problems through hands-on projects in web applications.",
   "cv": "https://static-idch.irvan789.dev/cv/fullstack-developer-irvan-tonny-widjaya-20260616.pdf",
   "section": {
     "projects": {
       "header": "Things I've built to put my passion in the programming",
-      "description":
-        "I've worked on some projects over the past years. Some of them are open-source, so feel free to check out the code and contribute if you have ideas for how it can be improved.",
+      "description": "I've worked on side projects to hone my programming skills. Below are some of my projects they I crafted from the scratch.",
       "data": [
         {
           title: "Single Sign-On",
-          description:
-            "Access multiple services with single identity using OAuth2 system.",
+          description: "Access multiple services with single identity using OAuth2 system.",
           url: "https://account.irvan789.dev",
           image: "/assets/project/images/default.webp",
           tags: ["laravel", "livewire", "postgresql"],
-          isOpenSource: true,
-          repositoryUrl: "https://github.com/Irvan789/Single-Sign-On"
+          isOpenSource: false,
+          repositoryUrl: null
         },
         {
           title: "IoT-Based ATS Monitoring and Control System",
@@ -41,8 +38,7 @@ export default {
         },
         {
           title: "PT. Mitra Albi Abadi",
-          description:
-            "Financial dashboard system for record the transactions and create reports.",
+          description: "Financial management system for record the transactions and create reports.",
           url: null,
           image: "/assets/project/images/maa.webp",
           tags: ["laravel", "vue", "postgresql"],
@@ -51,8 +47,7 @@ export default {
         },
         {
           title: "PT. Bumi Lestari Putra",
-          description:
-            "Company profile website for improve accessibility and organizational services.",
+          description: "Company profile website for improve accessibility and organizational services.",
           url: null,
           image: "/assets/project/images/blp.webp",
           tags: ["laravel", "vue", "postgresql"],
@@ -87,7 +82,7 @@ export default {
         "firebase"
       ]
     },
-    "contact": {
+    "contacts": {
       "header": "Let's build something great together",
       "description":
         "Interested with me?, Want to know more about me?, Reach me at",
