@@ -1,14 +1,8 @@
 import tailwindcss from "@tailwindcss/vite"
 
 export default defineNuxtConfig({
-  compatibilityDate: "2025-01-01",
+  compatibilityDate: "2026-05-01",
   devtools: { enabled: true },
-  modules: ["vue-sonner/nuxt", "@nuxtjs/i18n"],
-  i18n: {
-    defaultLocale: "en",
-    locales: [{ code: "en", name: "English", file: "en.json" }],
-    strategy: "no_prefix"
-  },
   app: {
     head: {
       charset: "utf-8",
@@ -24,6 +18,9 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    preset: "github-pages"
+    preset: "github-pages",
+    externals: {
+      inline: [/[\\/]node_modules[\\/]nuxt[\\/]dist[\\/]/],
+    }
   }
 })
